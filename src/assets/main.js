@@ -14,6 +14,7 @@ function getRandomInt(min, max) {
 }
 
 function setHiddenFields() {
+  attempt.value = 0;
   answer.value = getRandomInt(0,9999);
 
   while (answer.value.length < 4) {
