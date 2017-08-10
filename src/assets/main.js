@@ -24,3 +24,8 @@ function setHiddenFields() {
     answer.value = "0" + answer.value;
   }
 }
+
+//function sets the message to supplied string
+function setMessage(message){
+    document.getElementById('message').innerHTML = message;
+}
