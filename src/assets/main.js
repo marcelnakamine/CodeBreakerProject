@@ -43,3 +43,7 @@ function validateInput(input) {
     return false;
   }
 }
+
+function getResults(input) {
+  document.getElementById('results').innerHTML += '<div class="row"><span class="col-md-6">' + input + '</span><div class="col-md-6">'
+}
