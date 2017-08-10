@@ -17,7 +17,7 @@ npm start
 
 # Live Demo
 
-[Check out this link] (https://codeschool-projects.github.io/CodeBreakerProject/) to see a working version of this project. Feel free to alter and expand on this project to make your own twist on the Code Breaker game once you've completed the steps.
+[Check out this link](https://marcelnakamine.github.io/CodeBreakerProject/) to see a working version of this project. Feel free to alter and expand on this project to make your own twist on the Code Breaker game once you've completed the steps.
 
 You'll build a Code Breaker game that you can play and show off to others as an example of your abilities in JavaScript.
 
