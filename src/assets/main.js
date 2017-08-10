@@ -76,3 +76,13 @@ function getResults(input) {
   }
   return false;
 }
+
+function showAnswer(isThePlayerWon) {
+  let code = document.getElementById('code');
+  code.innerHTML = answer.value;
+  if (isThePlayerWon) {
+    code.className += ' success'
+  } else {
+    code.className += ' failure'
+  }
+}
