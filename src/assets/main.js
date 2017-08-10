@@ -46,10 +46,12 @@ function validateInput(input) {
 
 function getResults(input) {
   let html = '<div class="row"><span class="col-md-6">' + input + '</span><div class="col-md-6">';
+  let correct = 0;
 
   for (var i = 0; i < input.length; i++) {
     if (answer.value.charAt(i) == input.charAt(i)) {
       html += '<span class="glyphicon glyphicon-ok"></span>';
+      correct++;
     } else if (answer.value.indexOf(input.charAt(i)) != -1) {
       html += '<span class="glyphicon glyphicon-transfer"></span>';
     } else {
@@ -60,4 +62,9 @@ function getResults(input) {
   html += '</div></div>';
 
   document.getElementById('results').innerHTML += html;
+
+  if (correct == answer.value.length) {
+    return true;
+  }
+  return false;
 }
